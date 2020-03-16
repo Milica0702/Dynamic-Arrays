@@ -14,7 +14,7 @@ public class ImplementacijaDinamickihNizova {
        al.addElement(5);
        al.addElement(6);
        al.addElement(7);
-     
+      al.removeElement(5);
       
        al.printList();
     }

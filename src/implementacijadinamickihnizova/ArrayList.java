@@ -33,7 +33,14 @@ public class ArrayList {
         
     }
     
-   
+    public void removeElement(int indeks){
+        for (int i =indeks ; i<niz.length -1 ; i++){ //posle lenght ne postoji zato mora -1
+            niz [i]= niz[i+1];
+            
+            
+        }    
+        pokazivac--;
+    } 
     
     public void printList (){
        
