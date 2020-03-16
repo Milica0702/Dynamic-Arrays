@@ -42,6 +42,13 @@ public class ArrayList {
         pokazivac--;
     } 
     
+    
+    public void elementAtIndexOf(int indeks){
+        System.out.println(niz[indeks]);
+           
+    } 
+    
+    
     public void printList (){
        
         if (pokazivac == 0 ){
